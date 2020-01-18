@@ -1,4 +1,7 @@
 import React from 'react';
+
+import TensorflowExample from './components/TensorflowExample'
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +22,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <TensorflowExample/>
     </div>
   );
 }
